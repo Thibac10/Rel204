@@ -9,7 +9,7 @@ A execução do shell é simples, e possui apenas dois parametros adicionais de 
 ## Execução:
 
 user@machine # 
-```rel940 -noemail -noprint```
+```rel940.sh -noemail -noprint```
 
 `-noemail` : Executa o shell sem o envio de e-mails.
 
@@ -27,7 +27,7 @@ A instalação é simples e requer apenas que seja configurado os arquivos e dir
 **DIRETÓRIO RAIZ:**
 
 ```
-- rel940              (shell principal para execução)
+- rel940.sh           (shell principal para execução)
 - modules             (diretório onde ficam os modulos do rel940)
 - logs                (diretório de logs)
 - relatorios_diarios  (diretório destino dos relatórios gerados)
