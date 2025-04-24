@@ -1,15 +1,35 @@
-# Rel204
+# Rel940
 
-O REL204 se trata de um shell criado em interface de linha de comando (CLI) para execução de comandos e/ou scripts com um visual mais limpo e "amigável". Visando ser um centralizador de diversas etapas de um determinado processo a ser realizado.
+O REL940 trata-se de um shell para uso exclusivo de linha de comando (CLI). A forma como está implementado aqui apresenta comandos para criação de relatórios e chamadas de scripts externos com um visual limpo e "amigável". Esse shell foi criado para ser um centralizador de tarefas em lotes.
 
-Os parâmetros aqui presentes estão apenas para exemplo. Com certeza esses serão alterados/adptados para seu uso.
+Os parâmetros aqui presentes estão apenas para exemplo. Com certeza esses serão alterados/adaptados para seu uso.
 
-Trata-se de um shell simples, feito com "cuidado" porém sem muitos refinamentos, provavelmente há muito a ser melhorado. Porém cumpre bem seu papel no âmbito em que foi criado.
+A execução do shell é simples, e possui apenas dois parametros adicionais de execução:
+
+## Execução:
+
+user@machine # 
+```rel940 -noemail -noprint```
+
+`-noemail` : Executa o shell sem o envio de e-mails.
+
+`-noprint` : Executa o shell sem impressões de relatórios.
+
 
 Vamos então ao processo de instalação:
 
-# Instalação
+## Instalação
 
-A instalação requer apenas que seja configurado os diretórios/arquivos declarados na área de VARIÁVEIS. Como mencionado anteriormente, tudo aqui será adaptado de acordo com a necessidade de quem estiver usando.
+A instalação é simples e requer apenas que seja configurado os arquivos e diretórios declarados na área de VARIÁVEIS marcados como `CONFIG` no início do shell rel940. Como mencionado anteriormente, tudo aqui será adaptado de acordo com a necessidade de quem estiver implementando.
 
-Para a instalação basta definir a localização dos diretórios apontados como IMPORTANTE logo no inicio do shell _rel204.sh_, campo: "VARIAVEIS".
+#### Sugestão de Estrutura de Diretórios:
+
+**DIRETÓRIO RAIZ:**
+
+```
+- rel940              (shell principal para execução)
+- modules             (diretório onde ficam os modulos do rel940)
+- logs                (diretório de logs)
+- relatorios_diarios  (diretório destino dos relatórios gerados)
+- imprimir            (diretório onde serão armazenados os documentos que foram impressos)
+```
