@@ -33,3 +33,27 @@ A instalação é simples e requer apenas que seja configurado os arquivos e dir
 - relatorios_diarios  (diretório destino dos relatórios gerados)
 - imprimir            (diretório onde serão armazenados os documentos que foram impressos)
 ```
+
+## Prints:
+
+- Print 1
+  
+![Execução 01](prints_de_execucao/execucao_01.png)
+
+- Print 2
+
+![Execução 02](prints_de_execucao/execucao_02.png)
+
+- Chamada de Shell / Comando Externo
+  
+![Execução 01](prints_de_execucao/chamada_shell_externo.png)
+
+- Tela de Lançamento de dados da Planilha Geral
+  
+![Execução 02](prints_de_execucao/lancamento_dados_planilha_geral.png)
+
+- Tela para verificação dos dados lançados
+![Execução 01](prints_de_execucao/atualizacao_planilha_geral.png)
+
+- Tela de finalização do Shell
+![Execução 02](prints_de_execucao/tela_de_finalizacao.png)
