@@ -28,11 +28,15 @@ A instalação é simples e requer apenas que seja configurado os arquivos e dir
 
 ```
 - rel940.sh           (shell principal para execução)
-- modules             (diretório onde ficam os modulos do rel940)
-- logs                (diretório de logs)
+- modules             (diretório onde ficam os módulos do rel940)
+- log                 (diretório de logs)
+- temp                (diretorio para processamento temporário)
+- mail                (diretório com textos para envio por e-mail)
 - relatorios_diarios  (diretório destino dos relatórios gerados)
 - imprimir            (diretório onde serão armazenados os documentos que foram impressos)
 ```
+
+![Exemplo de Estrutura](Exemplo_de_Estrutura.png)
 
 ## Prints:
 
