@@ -1,0 +1,228 @@
+
+     LISTA DE ARQUIVOS NO DIRETORIO BK       
+============================================
+total 5404
+drwxrwx--- 2 root         root            8192 abr 19 06:01 bk
+drwxrwx--- 2 root         root            4096 abr  7 18:06 cfg
+drwxrwx--T 2 root         root           53248 abr 18 21:25 control
+drwxrwx--T 5 root         root          491520 mar 24 16:19 dat
+drwxrwx--T 2 root         root           12288 mar 24 16:19 def
+
+[ ARQUIVOS OCULTADOS ]
+
+================================================================================================
+
+[ SRTBI51 ]
+Iniciado Execucao: 'dfrun exe srtbi51 1 940 0 010121 010121 1 3 0 0' --> [ 19/04/25 06:01:54 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+No recipients were specified.
+=================================================================================================
+
+[ SRMBI02 ]
+Iniciado Execucao: 'dfrun exe srmbi02 1 940 0 010121 010121 0 0 999 801' --> [ 19/04/25 06:09:08 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SRTBI36 ]
+Iniciado Execucao: 'dfrun exe srtbi36 1 940 0 010121 010121 1 9999 2 2' --> [ 19/04/25 06:09:23 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SVDBI08 ]
+Iniciado Execucao: 'dfrun exe svdbi08 1 940 0 010121 010121 2 0 1 9999' --> [ 19/04/25 06:12:27 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SRTBI03 - [Geral] ]
+Iniciado Execucao: 'dfrun exe srtbi03 1 940 0 010121 010121 0 0 0 1' --> [ 19/04/25 06:13:05 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SRTBI03 - [Relatorio 1] ]
+Iniciado Execucao: 'dfrun exe srtbi03 1 940 0 010121 010121 0 0 0 0' --> [ 19/04/25 06:20:45 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SRTBI03 - [Cafeteria - Diario] ]
+Iniciado Execucao: 'dfrun exe srtbi03 1 940 0 010121 010121 1 0 1 0' --> [ 19/04/25 06:21:19 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+=================================================================================================
+
+[ SRTBI50 - [Relatorio 1] ]
+Iniciado Execucao: 'dfrun exe srtbi50 1 940 0 010121 010121 0 0 0 0 2' --> [ 19/04/25 06:21:21 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+No recipients were specified.
+
+ :::: Saida da chamada : "bash /files/gerencial/rel940/modules/module_copy_rel.sh" ::::
+
+Iniciado Shell: 'bash /files/gerencial/rel940/modules/module_copy_rel.sh' --> [ 19/04/25 06:24:47 ]
+
+ :::: Saida da chamada : "email940" ::::
+
+Iniciado Shell: 'email940' --> [ 19/04/25 06:24:52 ]
+  ========================================      
+    Enviando Relatorios para os e-mails         
+  ========================================      
+/files/gerencial/relatorios_diario/Smg12.csv: unable to attach file.
+Can't stat /files/gerencial/relatorios_diario/MapaResumo*: No such file or directory
+/files/gerencial/relatorios_diario/MapaResumo*: unable to attach file.
+  ==============================  
+        Enviado com Sucesso       
+  ==============================  
+[H[J
+ :::: Saida da chamada : "imprimir" ::::
+
+Iniciado Shell: 'imprimir' --> [ 19/04/25 06:24:58 ]
+  ===========================================================      
+    Copiando para pasta e imprimindo os relatorios ...        
+  ===========================================================      
+[H[Jcp: cannot stat 'sas64*': No such file or directory
+cp: cannot stat 'sas90*': No such file or directory
+cp: cannot stat 'sas36*': No such file or directory
+cp: cannot stat 'sae06*': No such file or directory
+rm: cannot remove '*.bdy': No such file or directory
+id de requisição é lpt4-5653 (1 arquivo(s))
+id de requisição é lpt4-5654 (1 arquivo(s))
+lp: Erro - não foi possível acessar "sas64*" - No such file or directory
+lp: Erro - não foi possível acessar "sas90*" - No such file or directory
+lp: Nenhum arquivo na requisição de impressão.
+id de requisição é lpt4-5656 (1 arquivo(s))
+id de requisição é lpt3-5657 (1 arquivo(s))
+id de requisição é lpt3-5658 (1 arquivo(s))
+lp: Erro - não foi possível acessar "sas36*" - No such file or directory
+id de requisição é lpt4-5659 (1 arquivo(s))
+id de requisição é lpt4-5660 (1 arquivo(s))
+id de requisição é lpt4-5661 (1 arquivo(s))
+id de requisição é lpt4-5662 (1 arquivo(s))
+lp: Erro - não foi possível acessar "/files/gerencial/relatorios_diario/final_rentabilidade.pdf" - No such file or directory
+lp: Erro - não foi possível acessar "/files/gerencial/relatorios_diario/final_avaria.pdf" - No such file or directory
+id de requisição é lpt4-5663 (1 arquivo(s))
+
+ :::: Saida da chamada : "diario" ::::
+
+Iniciado Shell: 'diario' --> [ 19/04/25 06:25:00 ]
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+No recipients were specified.
+--------------------------SRTBI01---------------------------
+Venda Diaria
+Variacao da venda diaria
+Rentabilidade Diaria
+Venda acumulada
+Variacao acumulada
+Rentabilidade acumulada
+--------------------------SRMBI02----------------------------
+Ped. Compra pendente
+--------------------------SMGBI11----------------------------
+Idade
+Vlr. Estoque final
+Itens c/ Estoque
+--------------------------SAEBI21----------------------------
+Ajuste Acumulado Mensal
+---------------------------SAEBI45---------------------------
+Avaria Acumulado Mensal
+----------------------------SAEBI06--------------------------
+Valor Bloqueio
+----------------------------SVDBI62--------------------------
+Projecao de Venda Acumulada
+Venda Diaria Cafeteria
+Venda Acumulada Cafeteria
+Projecao de Venda Cafeteria Acumulada
+Cafeteria Rent. Diaria
+Cafeteria Rent. Acumulada
+----------------------------SVDBI18--------------------------
+REL.APURACAO DIAS SEM VENDA COM ESTOQUE
+--------------------------SINBI29---------------------------
+rm: cannot remove 'sin29*': No such file or directory
+
+DataFlex Runtime, V3.2
+Copyright 1981-2000 Data Access Corporation Miami FL, USA - All Rights Reserved
+
+No recipients were specified.
+rm: cannot remove 'sin37*.csv': No such file or directory
+rm: cannot remove 'sin22*.csv': No such file or directory
+lp: Erro - não foi possível acessar "sin22*" - No such file or directory
+lp: Erro - não foi possível acessar "sin37*" - No such file or directory
+AJUSTE DE ESTOQUE
+[H[J---------------------------------------------------------------
+Desenvolvido por Muller - CPD Maua - Setembro de 2011
+Atualizado por Diego F. - Mogi - julho de 2018
+Versao 4.0
+---------------------------------------------------------------
+
+ :::: Saida da chamada : "classe.sh" ::::
+
+Iniciado Shell: 'classe.sh' --> [ 19/04/25 06:25:23 ]
+
+ :::: Saida da chamada : "prevencao.sh" ::::
+
+Iniciado Shell: 'prevencao.sh' --> [ 19/04/25 06:25:29 ]
+[32;1mRelatorio gerado com sucesso !!![m
+
+ :::: Saida da chamada : "resultados.sh" ::::
+
+Iniciado Shell: 'resultados.sh' --> [ 19/04/25 06:25:31 ]
+
+ :::: Saida da chamada : "diferenca.sh" ::::
+
+Iniciado Shell: 'diferenca.sh' --> [ 19/04/25 06:25:35 ]
+[H[J
+ :::: Saida da chamada : "bkbk" ::::
+
+Iniciado Shell: 'bkbk' --> [ 19/04/25 06:26:28 ]
+diario.html
+grisco.f940.190425.csv
+relatorio_campanha
+relatorio_campanha.pdf
+rel_sasbu24.csv
+rel_subsidio
+rel_subsidio_28
+scd99.f940.1293868065
+scd99.f940.1293868065.csv
+sid15.f940.1244438088
+sid15.f940.1244438088.csv
+sid15.f940.1244438088.pdf
+sin26.180425.2357
+sin29.f940.6252249228
+sit23.f940.1165764986
+sit23.f940.1165764986.csv
+tmp08_1804.csv
+wtipo.txt
+wtxt2.txt
+wtxt.txt
+Backup feito com sucesso !!!
+
+ :::: Saida da chamada : "dados.sh --send" ::::
+
+Iniciado Shell: 'dados.sh --send' --> [ 19/04/25 06:26:47 ]
+
+ :::: Saida da chamada : "bash /files/gerencial/rel940/modules/module_gerenciamento_estoque.sh" ::::
+
+Iniciado Shell: 'bash /files/gerencial/rel940/modules/module_gerenciamento_estoque.sh' --> [ 19/04/25 06:32:17 ]
+[H[J
